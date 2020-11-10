@@ -1,0 +1,54 @@
+@font-face {
+font-family: "Aller";  
+src: url("/fonts/Aller.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+body{
+	padding: 0;
+	margin: 0;
+}
+.header{
+	background-color: #3a3d40;
+	height: 94px;
+}
+.wrapper{
+	margin-right: 270px;
+	margin-left: 270px;
+}
+.logo-box{
+	float: left;
+	margin-top: 33px;
+	margin-bottom: 30px;
+}
+.navbar{
+	float: right;
+	font-size: 0;
+}
+.nav-link{
+	display: inline-block;
+	border-left-style: solid;
+	border-width: 1px;
+	border-color: #2d3032;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	font-family: Aller;
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 6px;
+	padding: 51px 20px 22px 20px ;
+}
+.nav-link:hover{
+	background-color: #35373a;
+	color: #7a9cb2;
+}
+.upper-footer{
+	height: 390px;
+	background-color: #3a3d40;
+
+}
+.under-footer{
+	height: 70px;
+	background-color: #2f3235;
+}
